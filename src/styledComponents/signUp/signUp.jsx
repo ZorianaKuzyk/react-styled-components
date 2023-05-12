@@ -162,9 +162,7 @@ export default class Signin extends Component {
             <PStyle></PStyle>
             <ButtonStyle onClick={this.changeSignup}>SIGN UP</ButtonStyle>
             <DivRightStyle>
-              <AStyle href="https://zorianakuzyk.github.io/signin">
-                Already have an account? Sign in
-              </AStyle>
+              <AStyle href="/signin">Already have an account? Sign in</AStyle>
             </DivRightStyle>
             <PStyle></PStyle>
             <PStyle></PStyle>
