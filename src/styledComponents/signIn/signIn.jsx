@@ -132,7 +132,9 @@ export default class Signin extends Component {
 
             <DivStyle>
               <AStyle href="#">Forgot password?</AStyle>
-              <AStyle href="/signup">Don't have an account? Sign up</AStyle>
+              <AStyle href="/react-styled-components/signup">
+                Don't have an account? Sign up
+              </AStyle>
             </DivStyle>
             <PStyle></PStyle>
             <PStyle></PStyle>
