@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const ContainerFirst = styled.div`
@@ -85,7 +86,7 @@ export const ButtonStyle = styled.button`
   }
 `;
 
-export const AStyle = styled.a`
+export const AStyle = styled(Link)`
   color: #90caf9;
   font-size: 12px;
 

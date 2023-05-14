@@ -131,8 +131,8 @@ export default class Signin extends Component {
             <ButtonStyle onClick={this.changeSignin}>SIGN IN</ButtonStyle>
 
             <DivStyle>
-              <AStyle href="#">Forgot password?</AStyle>
-              <AStyle href="/react-styled-components/signup">
+              <AStyle to="#">Forgot password?</AStyle>
+              <AStyle to="/react-styled-components/signup">
                 Don't have an account? Sign up
               </AStyle>
             </DivStyle>
